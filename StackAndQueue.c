@@ -112,17 +112,17 @@ void Stack() //Stack driver function
 
             case 5:
                if(IsEmpty()) //Check whether stack is empty
-					printf("The Stack is Empty!\n\n");
-				else
-					printf("The Stack is not Empty (For Now)\n\n");
+			printf("The Stack is Empty!\n\n");
+		else
+			printf("The Stack is not Empty (For Now)\n\n");
 
             break;
 
             case 6:
-			   if(IsFull()) //Check whether stack is Full
-					printf("The Stack is Full!\n\n");
-				else
-					printf("The Stack is not Full (Yet)\n\n");
+		if(IsFull()) //Check whether stack is Full
+			printf("The Stack is Full!\n\n");
+		else
+			printf("The Stack is not Full (Yet)\n\n");
 
             break;
 
@@ -245,7 +245,7 @@ void Queue()
             break;
 
             case 4:
-				Rear(); //Print or Return the element at the rear of the queue
+		Rear(); //Print or Return the element at the rear of the queue
             break;
 
             case 5:
@@ -254,9 +254,9 @@ void Queue()
 
             case 6:
                 if(IsEmptyQ()) //Check whether the queue is empty
-					printf("The Queue is empty (For now)\n\n");
-				else
-					printf("The queue is not empty!\n\n");
+			printf("The Queue is empty (For now)\n\n");
+		else
+			printf("The queue is not empty!\n\n");
             break;
 
             case 7:
