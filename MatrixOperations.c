@@ -7,7 +7,7 @@ void PrintMatrix(int[][50], int[][50], int, int, int, int); //Print both the mat
 void MatrixAddition(int[][50], int[][50], int, int, int, int); //Add both matrix and print result
 void MatrixSubtraction(int[][50], int[][50], int, int, int, int); // Subtract Matrix A from B and print result
 void MatrixMultiplication(int[][50], int[][50], int, int, int, int); // Multiply both matrix and print result
-void TransposeMatrix(int A[50][50], int, int); //Permanently changes and Displays transpose of a Matrix
+void TransposeMatrix(int A[][50], int, int); //Permanently changes and Displays transpose of a Matrix
 
 //Driver Function
 int main()
@@ -53,7 +53,7 @@ int main()
 
 				printf("\n\n");
 			}
-            break;
+           	 break;
 
             case 2:
 				PrintMatrix(A, B, r1, c1, r2, c2);
@@ -84,9 +84,12 @@ int main()
 					printf("Enter valid choice\n\n");
 			}
 			break;
+				
             case 7:
-                printf("Exiting...\n Thanks for the practicing with me!");
-                exit(0);
+			{
+				printf("Exiting...\n Thanks for the practicing with me!");
+				exit(0);
+			}
             break;
 
             default:
